@@ -1,0 +1,31 @@
+Parameter   | meaning 
+ra          | Right ascension of fiber, J2000 (https://en.wikipedia.org/wiki/Right_ascension)
+dec         | Declination of fiber, J2000 (https://en.wikipedia.org/wiki/Declination)
+Ar          | 
+upsf        | The magnitude of the U-band photo input, characterized by light centered 365 nm, with a width of 66 nm.(see https://astronomy.stackexchange.com/questions/18986/what-is-the-ugriz-magnitude-system and https://en.wikipedia.org/wiki/Photometric_system) It is not clear is SDSS uses ugirz or u'g'i'r'z' (see: http://www.phys.lsu.edu/~jclem/publications/phd.pdf)
+uErr        | The uncertiny in upfs
+gpsf        | The magnitude of the G-band photo input, characterized by light centered 464 nm, with a width of 128 nm. (see upfs)
+gErr        | The uncertiny in gpfs
+rpsf        | The magnitude of the R-band photo input, characterized by light centered 658 nm, with a width of 138 nm. (see upfs)
+rErr        | The uncertiny in rpfs
+ipsf        | The magnitude of the I-band photo input, characterized by light centered 806 nm, with a width of 149 nm. (see upfs)
+iErr        | The uncertiny in ipfs
+zpsf        | The magnitude of the Z-band photo input, characterized by light centered 900 nm, with a width of ?? nm. (see upfs)
+zErr        | The uncertiny in zpfs
+pmL         | 
+pmB         | 
+pmErr       | 
+mjd         | MJD (Modified Julien Date) of observation. Used along with plate & fiber to form the unique triple (plate , mjd , fiber)
+plate       | Plate number of observation. Used along with MJD & fiber to form the unique triple (plate , mjd , fiber)
+fiber       | Fiber number of observation. Used along with plate & MJD to form the unique triple (plate , mjd , fiber)
+SNR         | 
+FeH         | [Fe/H] ratio, [Fe/H] = log((Fe/H)/(Fe/H)_sun) (see: http://icc.dur.ac.uk/~tt/Lectures/Galaxies/TeX/lec/node27.html)
+FeHErr      | Uncertainty in [Fe/H]
+Teff        | Effective temperature, a temperature estimate which oomes from luminosity L and black body radiation, given by L = (4πR^2)σT^4_eff, where σ is the Stefan-Boltzman constant. (see https://www.astro.princeton.edu/~gk/A403/constants.pdf)
+TeffErr     | Uncertainty in T_eff
+logg        | Log of surface gravitational constant g. 
+loggErr     | Uncertainty in g
+alphFe      | [\alpha/Fe] ratio, or the log of the ratio of Ne, Mg, Si, S, Ar, Ca or Ti to Fe relative to the sun. (see https://physics.stackexchange.com/questions/205873/what-is-the-definition-of-alpha-rm-h and https://en.wikipedia.org/wiki/Alpha_process)
+alphFeErr   | Uncertainty in alphaFe
+radVel      | Radial Velocity
+radVelErr   | Uncertainty in radial velocity
