@@ -9,6 +9,8 @@ This module's main use case is creating ML ready data from the raw spectra corre
 Credit to the astroML package by Jake Vanderplas and "Statistics, Data Mining, and 
 Machine Learning in Astronomy" by Zeljko Ivezic, Andrew Connolly,
 Jacob Vanderplas, and Alex Gray
+
+Distributed under an Apache 2.0 license. 
 '''
 
 #Machine Learning and Data Libraries
